@@ -68,6 +68,30 @@ Comun em todas as paginas
       color: #c08a1a;
     }
 
+
+    .circular{
+    background: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+
+    .btn-template{
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .btn-template:hover{
+    background-color: #003d82;
+  }
+
     .btn{
       background: #c08a1a;
       color: white;
@@ -575,6 +599,65 @@ Pagina Programação
 
 }
 
+.inscricao-minicursos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.inscricao-box{
+    width: 80%;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    border: 1px solid #e6e6e6;
+}
+
+.inscricao-texto h2{
+    font-size: 42px;
+    color: #0d2f6f;
+    margin-bottom: 15px;
+}
+
+.inscricao-texto p{
+    font-size: 19px;
+    color: #444;
+    max-width: 600px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.btn-inscricao-mini{
+    display: inline-block;
+    background: #c9961a;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-inscricao-mini:hover{
+    background: #a97f14;
+    transform: translateY(-2px);
+}
+
+.qrcode-area img{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+}
+
 /* =========================
    SUBMISSÃO
 ========================= */
@@ -584,9 +667,9 @@ Pagina Programação
   background: #f8f8f8;
 }
 
-/* =========================
+/* 
    REGRAS SUPERIORES
-========================= */
+ */
 
 .submissao-regras{
   display: flex;
@@ -618,10 +701,6 @@ Pagina Programação
   font-weight: 600;
   line-height: 1.4;
 }
-
-/* =========================
-   CARDS
-========================= */
 
 .submissao-cards{
   display: flex;
@@ -736,4 +815,51 @@ Pagina Programação
     font-size: 22px;
   }
 
+}
+.templates-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.templates-box{
+    width: 80%;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid #e5e5e5;
+}
+
+.templates-text h2{
+    color: #0d2f6f;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.templates-text p{
+    color: #444;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.btn-template-download{
+    background: #0057c2;
+    color: white;
+    padding: 16px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.btn-template-download:hover{
+    background: #003f8f;
+    transform: translateY(-2px);
 }
