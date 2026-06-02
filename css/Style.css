@@ -186,8 +186,53 @@ Pagina inicial
       height: auto;
       display: block;
     }
+    /* 
+   REVISTAS PARCEIRAS
+ */
 
-/*Pagina Sobre*/
+.revistas{
+    padding: 50px 20px;
+    background: #ffffff;
+}
+
+.revistas-grid{
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.revista-card{
+    background: #fff;
+    border: 1px solid #eadfcb;
+    border-radius: 12px;
+
+    height: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    transition: .3s;
+}
+
+.revista-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.revista-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*=====================
+Pagina Sobre
+========================*/
 
     .sobre{
       width: 100%;
