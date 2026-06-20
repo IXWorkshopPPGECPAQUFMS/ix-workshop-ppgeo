@@ -576,6 +576,21 @@ Pagina Programação
       box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     }
 
+    /* FOTO */
+    .minicursos-fotos {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    }
+
+    .minicursos-fotos img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #c99a2e;
+    }
     /* ÍCONE */
     .minicursos-icone{
       font-size: 42px;
