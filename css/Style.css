@@ -181,6 +181,67 @@ Comun em todas as paginas
 /*===================
 Pagina inicial
 =====================*/
+/* Aviso de Prorrogação*/
+
+.aviso-prorrogacao{
+    width:100%;
+    background:#b71c1c;
+    padding:18px 0;
+}
+
+.container-aviso{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:25px;
+    color:#fff;
+    padding:0 20px;
+    flex-wrap:wrap;
+}
+
+.icone{
+    font-size:42px;
+}
+
+.texto-aviso{
+    flex:1;
+}
+
+.texto-aviso h2{
+    margin:0;
+    font-size:30px;
+    font-weight:700;
+}
+
+.texto-aviso p{
+    margin-top:8px;
+    font-size:18px;
+    line-height:1.5;
+}
+
+.data-aviso{
+    background:#fff;
+    color:#b71c1c;
+    padding:15px 25px;
+    border-radius:10px;
+    text-align:center;
+    min-width:220px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.data-aviso span{
+    display:block;
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:5px;
+}
+
+.data-aviso strong{
+    font-size:36px;
+    font-weight:800;
+}
     #desclog{
       width: 100%;
       height: auto;
